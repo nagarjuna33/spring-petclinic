@@ -1,5 +1,5 @@
 FROM ubuntu:22.04 as unzip
-RUN mkdir /Nop && \ 
+RUN mkdir /Nop && \
     apt update && \
     apt install wget unzip -y && \
     cd /Nop && \
