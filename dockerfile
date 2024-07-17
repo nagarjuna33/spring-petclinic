@@ -1,4 +1,4 @@
-FROM ubuntu:22.04 as unzip
+FROM ubuntu:22.04 AS unzip
 RUN mkdir /Nop && \ 
     apt update && \
     apt install wget unzip -y && \
