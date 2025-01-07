@@ -452,4 +452,11 @@
       </build>
     </profile>
   </profiles>
+<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0yezm1k49lh6-artifactory-primary-0-snapshots</name>
+        <url>https://trialjkyjnz.jfrog.io/artifactory/testrepo-libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
